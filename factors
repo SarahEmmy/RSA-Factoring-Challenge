@@ -42,7 +42,7 @@ def factorize():
                     i += 2
                 if i == (number // 2) + 1:
                     print("{}={}*{}".format(number, number, 1))
-    except IndexError:
+    except (IndexError):
         pass
 
 # Run the factorize function
